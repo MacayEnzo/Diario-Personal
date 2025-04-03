@@ -1,0 +1,128 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3f4f6;
+    color: #188394;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #188394;
+    margin-bottom: 16px;
+  }
+  h2 {
+    margin-top: 24px;
+  }
+  
+  form {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #020c0e;
+  }
+  
+  button {
+    background-color: #188394;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background: #e0e7ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  li strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  li small {
+    color: #0d3a3f;
+  }
+  
+  li .buttons {
+    margin-top: 5px;
+  }
+  
+  li button {
+    background-color: #188394;
+    margin: 0 5px 0 0;
+  }
+  li button:hover {
+    background-color: #188394;
+  }
+  
+  .error {
+    color: #dc2626;
+    background: #fef2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fca5a5;
+    border-radius: 5px;
+  }
+  
+  .success {
+    color: #d8eef1;
+    background: #ddedf0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e8f3f5;
+    border-radius: 5px;
+  }
+  
